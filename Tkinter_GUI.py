@@ -56,7 +56,7 @@ footer=Label(main,text='     Anudish Jain')
 footer.configure(bg='springgreen4',fg='white',height=3,width=120,anchor=W,font=('vedanata','12','bold italic'))
 footer.place(x=0,y=617)
 '''------------------------------------------------------------------------------------------------------------------'''
-github_url='https://github.com/anudish1008'
+github_url='https://github.com/jain-anudish'
 icon1=PhotoImage(file='github-logo.png')
 git=Button(main,command=lambda :url_opener(github_url))
 git.configure(bg='springgreen4',image=icon1,borderwidth=0,relief=SUNKEN,)
