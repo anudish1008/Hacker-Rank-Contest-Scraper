@@ -15,7 +15,6 @@ def url_opener(site):
 main=Tk()
 
 main.title('HackerRank Contest')
-main.iconbitmap('HackerRank_Icon.ico')
 
 main.configure(bg='grey90')
 main.wm_maxsize(900,670)
@@ -56,13 +55,13 @@ footer=Label(main,text='     Anudish Jain')
 footer.configure(bg='springgreen4',fg='white',height=3,width=120,anchor=W,font=('vedanata','12','bold italic'))
 footer.place(x=0,y=617)
 '''------------------------------------------------------------------------------------------------------------------'''
-github_url='https://github.com/jain-anudish'
+github_url='https://github.com/anudishjain'
 icon1=PhotoImage(file='github-logo.png')
 git=Button(main,command=lambda :url_opener(github_url))
 git.configure(bg='springgreen4',image=icon1,borderwidth=0,relief=SUNKEN,)
 git.place(x=810,y=625)
 '''------------------------------------------------------------------------------------------------------------------'''
-linkedin_url='https://www.linkedin.com/in/anudish-jain-1072ba136/'
+linkedin_url='https://www.linkedin.com/in/anudishjain/'
 icon2=PhotoImage(file='linkedin-logo.png')
 linkedin=Button(main,command=lambda :url_opener(linkedin_url))
 linkedin.configure(bg='springgreen4',image=icon2,borderwidth=0,relief=SUNKEN)
